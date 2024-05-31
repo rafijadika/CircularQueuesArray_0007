@@ -70,6 +70,21 @@ public:
 				cout << queue_array[FRONT_posisition] << "   ";
 				FRONT_posisition++;
 			}
+			cout << endl;
+		}
+		else {
+			while (FRONT_posisition <= REAR_posisition) {
+				cout << queue_array[FRONT_posisition] << "   ";
+				FRONT_posisition++;
+			}
+
+			FRONT_posisition = 0;
+
+			while (FRONT_posisition <= REAR_posisition) {
+				cout << queue_array[FRONT_posisition] << "   ";
+				FRONT_posisition++;
+			}
+			cout << endl;
 		}
 	}
-};
+}; 
