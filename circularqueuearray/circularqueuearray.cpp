@@ -11,3 +11,15 @@ public:
 		REAR = -1;
 	}
 
+	void insert() {
+		int num;
+		cout << "Enter a  number";
+		cin >> num;
+		cout << endl;
+
+		if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) {
+			cout << "\nQueue overflow\n";
+			return;
+		}
+	}
+};
