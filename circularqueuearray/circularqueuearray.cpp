@@ -27,7 +27,8 @@ public:
 			REAR = 0;
 		}
 		else {
-			if (REAR == max )
+			if (REAR == max - 1)
+				REAR = 0;
 		}
 	}
 };
